@@ -15,7 +15,7 @@
     }
     
     .main {
-        min-height: 100vh;
+        height: auto;
         width: 100%;
         background: linear-gradient(135deg, #153677, #4e085f);
         padding: 50px;
@@ -115,8 +115,7 @@
         background: #fe0000d6;
     }
     .ftr {
-        position: absolute;
-        bottom: 0px;
+       
         width: 100%;
         display: flex;
         justify-content: center;
@@ -128,4 +127,8 @@
         color: #ffff;
         font-size: 15px;
         font-weight: 100;
+    }
+    @media only screen and (max-width:400px){
+        .main{padding:20px;}
+        button{ padding: 16px 30px;}
     }
